@@ -1,0 +1,305 @@
+/* 去掉所有标签的内外边距 */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 去除li 默认的样式 · */
+li{
+	list-style: none;
+}
+/* 去掉超链接默认样式 */
+a{
+	text-decoration: none;
+}
+/* 网页背景 */
+body{
+	width: 100%;
+	background: url(../images/background.jpg) no-repeat;
+	background-size: cover;
+}
+/* 顶部 */
+header{
+	width: 960px;
+	/* 左右居中 上下20px外边距 */
+	margin: 0 auto 20px auto;
+}
+/* logo */
+.logo{
+	font-size: 24px;
+	color: #333333;
+	margin: 50px 0 20px 0;
+}
+/* 导航部分 */
+.nav{
+	height: 50px;
+}
+/* 导航栏 */
+.nav ul{
+	float: left;
+}
+.nav ul li {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 50px;
+}
+.nav ul li a{
+	color: #6c8180;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* 搜索 */
+.search{
+	float: right;
+	height: 24px;
+	margin-top: 12px;
+}
+.search input{
+	float: left;
+	height: 24px;
+	width: 180px;
+	padding-left: 10px;
+}
+.search button{
+	float: left;
+	width: 50px;
+	height: 28px;
+	background: #333333;
+	color: #FFFFFF;
+	border: none;
+}
+/* 轮播图 */
+.swiper {
+	position: relative;
+	width: 960px;
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 6px;
+}
+
+.wrap {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.warp ul {
+	position: absolute;
+}
+
+.wrap ul li {
+	width: 100%;
+	height: 300px;
+}
+
+.wrap ul li img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.wrap ol {
+	position: absolute;
+	right: 5%;
+	bottom: 20px;
+}
+
+.wrap ol li {
+	list-style: none;
+	height: 6px;
+	width: 20px;
+	border: 1px solid #FFF;
+	margin-left: 12px;
+	color: #959490;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	font-size: 0px;
+}
+
+.wrap ol .on {
+	width: 30px;
+	background: #FE6700;
+}
+/* 首页内容 */
+.home{
+	width: 960px;
+	height: 500px;
+	margin: 20px auto;
+}
+.home-left{
+	float: left;
+	width: 720px;
+	height: 500px;
+}
+.home-left ul li{
+	margin-bottom: 15px;
+	height: 120px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.home-left img{
+	float: left;
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+}
+.home-left .text{
+	float: right;
+	width: 510px;
+}
+.home-left .text h3{
+	margin-bottom: 15px;
+	color: #333333;
+}
+.home-left .text p{
+	color: #959490;
+	line-height: 1.8;
+	font-size: 15px;
+}
+/* 右侧 */
+.home-right{
+	float: right;
+	width: 220px;
+}
+.home-right .user{
+	padding: 10px;
+	background: #333333;
+	border-radius: 6px;
+}
+.user p{
+	font-size: 15px;
+	color: #FFFFFF;
+	margin: 5px 0;
+}
+/* 首页图片 */
+.home-title{
+	margin: 20px 0 10px 0;
+	font-size: 16px;
+	color: #333333;
+	border-left: 5px solid #333333;
+	padding-left: 5px;
+}
+.home-img img{
+	width: 100%;
+	height: 125px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+/* 底部 */
+footer{
+	background: #333333;
+	color: #FFFFFF;
+	padding: 15px 0;
+	text-align: center;
+}
+/* 碎屑导航 */
+.su-nav{
+	width: 960px;
+	font-size: 15px;
+	margin: auto;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #d40000;
+}
+.su-nav a{
+	color: #333333;
+}
+/* 关于我 */
+.about{
+	width: 920px;
+	margin: 20px auto;
+	background: #FFFFFF;
+	padding: 20px;
+}
+.about p{
+	line-height: 1.8;
+	margin-bottom: 10px;
+	text-indent: 2em;
+}
+
+/*我的爱好*/
+.like{
+	width: 960px;
+	height: 480px;
+	margin: 10px auto;
+}
+.like ul li{
+	float: left;
+	width: 300px;
+	height: 220px;
+	margin: 10px;
+}
+.like ul li img{
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+/* 旅行随笔 */
+.work{
+	width: 960px;
+	height: 480px;
+	margin: 10px auto;
+}
+.work ul li{
+	margin-bottom: 15px;
+	height: 120px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.work img{
+	float: left;
+	width: 220px;
+	height: 120px;
+	object-fit: cover;
+}
+.work .text{
+	float: right;
+	width: 700px;
+}
+.work .text h3{
+	margin-bottom: 15px;
+	color: #333333;
+}
+.work .text p{
+	color: #959490;
+	line-height: 1.8;
+	font-size: 15px;
+}
+/* 留言板 */
+.ly{
+	width: 920px;
+	margin: 10px auto;
+	padding: 20px;
+	background: #FFFFFF;
+}
+.ly label{
+	display: block;
+	margin-bottom: 15px;
+}
+.ly input{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+}
+.ly span{
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+	font-size: 15px;
+}
+.ly textarea{
+	width: 320px;
+	height: 150px;
+	padding: 5px;
+}
+.ly .submit{
+	width: 100px;
+	margin-left: 85px;
+	color: #FFFFFF;
+	background: #333333;
+	border: none;
+	padding-left: 0;
+}
