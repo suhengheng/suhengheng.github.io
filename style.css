@@ -68,7 +68,7 @@ header{
 	color: #FFFFFF;
 	border: none;
 }
-/* 轮播图 */
+/*banner*/
 .swiper {
 	position: relative;
 	width: 960px;
@@ -101,29 +101,7 @@ header{
 	object-fit: cover;
 }
 
-.wrap ol {
-	position: absolute;
-	right: 5%;
-	bottom: 20px;
-}
 
-.wrap ol li {
-	list-style: none;
-	height: 6px;
-	width: 20px;
-	border: 1px solid #FFF;
-	margin-left: 12px;
-	color: #959490;
-	float: left;
-	text-align: center;
-	cursor: pointer;
-	font-size: 0px;
-}
-
-.wrap ol .on {
-	width: 30px;
-	background: #FE6700;
-}
 /* 首页内容 */
 .home{
 	width: 960px;
@@ -196,18 +174,18 @@ footer{
 	padding: 15px 0;
 	text-align: center;
 }
-/* 碎屑导航 */
-.su-nav{
+/* 次导航 */
+.nav-1{
 	width: 960px;
 	font-size: 15px;
 	margin: auto;
 	padding-bottom: 5px;
 	border-bottom: 2px solid #d40000;
 }
-.su-nav a{
+.nav-1 a{
 	color: #333333;
 }
-/* 关于我 */
+/* 个人介绍 */
 .about{
 	width: 920px;
 	margin: 20px auto;
@@ -219,6 +197,20 @@ footer{
 	margin-bottom: 10px;
 	text-indent: 2em;
 }
+
+table {
+	margin-left:      20px;
+	margin-right:     20px;
+	border:           thin solid black;
+	caption-side:     bottom;
+	border-collapse:  collapse;
+  }
+ 
+  td{
+	border:           thin dotted gray;
+	padding:          5px;
+  }
+  
 
 /*我的爱好*/
 .like{
@@ -295,6 +287,8 @@ footer{
 	height: 150px;
 	padding: 5px;
 }
+
+/*提交功能*/
 .ly .submit{
 	width: 100px;
 	margin-left: 85px;
